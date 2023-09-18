@@ -1,0 +1,40 @@
+body {
+  background-color: #3a3a3a;
+  text-align: center;
+}
+header {
+  color: rgb(250, 235, 215);
+}
+footer {
+  margin: 5px 10px;
+}
+
+button {
+  background-color: #00cddb;
+  color: #000;
+  padding: 15px;
+  border-radius: 10px;
+  transition: transform 0.3s, backgroundcolor 0.3s;
+  border: 5px black dotted;
+}
+button:hover {
+  background-color: #c1fbff;
+  transform: scale(1.1);
+}
+#answers {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-color: #58585877;
+}
+p {
+  font-size: 35px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: aliceblue;
+}
+#hiddenButton {
+  background-color: azure;
+  display: none;
+  font-size: 100px;
+  text-align: center;
+}

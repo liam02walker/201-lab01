@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <script src="./JS/index.js"></script>
+    <title>Lab 01</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>CLASS 1 LAB</h1>
+    </header>
+
+    <main>
+      <div id="buttonContainer">
+        <button id="b1" onclick="buttonClicked(1)">What is your name?</button>
+        <button id="b2" onclick="buttonClicked(2)">What is your favourite colour?</button>
+        <button id="b3" onclick="buttonClicked(3)">Do you like tea?</button>
+        <button id="b4" onclick="buttonClicked(4)">Do you drink water?</button>
+        <h2 id="points">0/3</h2>
+      </div>
+      <div id="answers">
+        <p id="name"></p>
+        <p id="favColour"></p>
+        <p id="likeTea"></p>
+        <p id="drinkWater"></p>
+      </div>
+      <button id="hiddenButton" onclick="secret()">CLICK ME</button>
+    </main>
+
+    <footer>&copy;Lab 01</footer>
+  </body>
+</html>
